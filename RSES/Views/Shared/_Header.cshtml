@@ -1,0 +1,23 @@
+﻿<header>
+    <div id="title">
+        <div>
+            <img class="logoImage" src="@Url.Content("~/content/images/rseslogo.jpg")" alt="Logo"/>
+            <img class="rightImage" src="@Url.Content("~/content/images/appconlogo_small.jpg")" alt="Logo"/>
+        </div>
+                
+        <h1 class="mainTitle">@ViewBag.Title</h1>
+        <h3 class="contactDetails">01788 578778 <br />07737 015780 
+        <br/>    <a class="emailLink" href="mailto:mike.bunce@rses.co.uk">mike.bunce@rses.co.uk</a>
+        </h3>
+    </div>
+    <div>
+        <nav>
+            <ul id="menu">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("Recent Work", "Index", "Home")</li>
+                <li>@Html.ActionLink("Gallery", "Index", "Home")</li>
+                <li class="lastItem">@Html.ActionLink("Contact", "Index", "Home")</li>                    
+            </ul>
+        </nav>
+    </div>
+</header>

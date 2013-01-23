@@ -1,17 +1,20 @@
 ﻿
-<script>
-    Galleria.loadTheme('Content/themes/classic/galleria.classic.min.js');
-    Galleria.run('#galleria');
-</script>
 
+<script type="text/javascript">
+    $(window).load(function () {
+        $('#slider').nivoSlider({
+            effect: 'fade'
+        });
+    });
+</script>
 <div class="main">
     <div class="mainContent">
         <h2>
             Red Squirrel Electrical Services
         </h2>
-        <p>
+        <h3>
             All Domestic Electrical work Carried out.
-        </p>
+        </h3>
         <ul>
             <li>New circuits</li>
             <li>Fault finding and repairs</li>
@@ -24,11 +27,13 @@
         </ul>
     </div>
      
-   @*<div id="galleria">
-        <img src="/Content/Images/MeggerLogo.jpg" data-title="Megger" data-description="All work tested using Megger Multifunction Testers">
-        <img src="/Content/Images/cu.jpg" data-title="Consumer Unit" data-description="Installation of Consumer Units">
-        <img src="/Content/Images/trustmark.jpg" data-title="Consumer Unit" data-description="Installation of Consumer Units">
-        <img src="/Content/Images/subcu.JPG" data-title="Consumer Unit" data-description="Installation of Consumer Units">
-    </div>*@
+    <div class="slider-wrapper theme-default">
+        <div class="ribbon"></div>
+        <div id="slider" class="nivoSlider">
+            <img src="/Content/Images/cu.jpg" title="Consumer Unit">
+            <img src="/Content/Images/subcu.JPG" title="Consumer Unit">
+        </div>
+    </div>
         
 </div>
+

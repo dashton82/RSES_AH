@@ -15,6 +15,7 @@ local.properties
 .classpath
 .settings/
 .loadpath
+_ReSharper.RSES/
 
 # External tool builders
 .externalToolBuilders/

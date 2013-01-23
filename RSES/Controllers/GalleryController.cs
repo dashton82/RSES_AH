@@ -6,11 +6,14 @@ using System.Web.Mvc;
 
 namespace RSES.Controllers
 {
-    public class HomeController : Controller
+    public class GalleryController : Controller
     {
+        //
+        // GET: /Gallery/
+
         public ActionResult Index()
         {
-        
+
             return View();
         }
 

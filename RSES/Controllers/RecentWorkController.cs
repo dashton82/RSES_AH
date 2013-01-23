@@ -6,11 +6,14 @@ using System.Web.Mvc;
 
 namespace RSES.Controllers
 {
-    public class HomeController : Controller
+    public class RecentWorkController : Controller
     {
+        //
+        // GET: /RecentWork/
+
         public ActionResult Index()
         {
-        
+            
             return View();
         }
 

@@ -14,7 +14,7 @@ body {
     padding: 0px 30px;
     margin: 0px -32px;
     background-color: white;
-    width: 750px;
+    width: 70%;
     height: 100%;
     border-left: 1px solid #E2E2E2;
     border-right: 1px solid #E2E2E2;
@@ -114,7 +114,7 @@ h5, h6 {
 /* you can specify a greater or lesser percentage for the 
 page width. Or, you can specify an exact pixel width. */
 .page {
-    width: 750px;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }

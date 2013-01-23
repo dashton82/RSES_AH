@@ -117,6 +117,7 @@
     <Content Include="Content\images\appconlogo_small.jpg" />
     <Content Include="Content\images\butt3.gif" />
     <Content Include="Content\images\CandG.jpg" />
+    <Content Include="Content\images\bg.jpg" />
     <Content Include="Content\images\cu.jpg" />
     <Content Include="Content\images\cu1.JPG" />
     <Content Include="Content\images\cu2.JPG" />
@@ -135,6 +136,7 @@
     <Content Include="Content\images\Paypalcards.gif" />
     <Content Include="Content\images\pdf.gif" />
     <Content Include="Content\images\redsquirrellogo.bmp" />
+    <Content Include="Content\images\repeating.jpg" />
     <Content Include="Content\images\rseslogo.jpg" />
     <Content Include="Content\images\rseslogo2.jpg" />
     <Content Include="Content\images\subcu.JPG" />
